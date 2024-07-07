@@ -1,0 +1,98 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    box-sizing: border-box;
+}
+.Profile-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background: #edd2d2;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.1); 
+
+}
+.Profile-card .avater{
+    padding: 20px 0px 10px;
+}
+
+.Profile-card .avater img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Profile-card .details{
+    padding: 10px 30px;
+}
+.Profile-card .details h1{
+    font-size: 25px;
+    color: #111;
+    margin-bottom: 5px;
+}
+.Profile-card .details h2{
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 12px;
+}
+.Profile-card .details p{
+    font-size: 15px;
+    color: #555;
+    
+}
+.Profile-card .number{
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Profile-card .number p{
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #555;
+    
+}
+.Profile-card .number h2{
+    font-size: 18px;
+    color: #444;
+    
+}
+.Profile-card .btn{
+    padding: 10px 30px 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.Profile-card .btn button{
+   flex: 1;
+   padding: 10px 20px;
+   cursor: pointer;
+   outline: none;
+   font-size: 15px;
+   font-weight: 600;
+   border-radius: 5px;
+    
+}
+.Profile-card .btn button.outline{
+   border: 1px solid #111;
+   color: #111;
+   background: transparent;
+}
+.Profile-card .btn button.fill{
+    background: #111;
+    color: #fff;
+    border: none;
+ }
+    
+     
+ 
